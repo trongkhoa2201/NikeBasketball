@@ -81,6 +81,7 @@ function addProductToCart(title,price,productImg){
         return;
         }
     }
+    // chỗ này k hiện hình sản phẩm bên cart
     var cartBoxContent = `
                             <img src="${productImg}" alt="" class="cart-img">
                             <div class="detail-box">
